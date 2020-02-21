@@ -1,4 +1,10 @@
-# web-contact
+# web-contact 📒
+
+Simple example using the [Web Contacts API](https://wicg.github.io/contact-api/spec/)
+
+🚀 Live demo : https://pierresaid.github.io/web-contact
+
+For now it only works with Google Chrome Android 80+
 
 ## Project setup
 
@@ -12,18 +18,4 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
-
-```
-yarn build
-```
-
-### Lints and fixes files
-
-```
-yarn lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The project is served in https by default as the Web contacts API only works in https
