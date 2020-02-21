@@ -39,6 +39,7 @@ export default {
   async mounted() {
     if (!navigator.contacts) {
       this.supportContactApi = false;
+      return;
     }
     this.properties = await navigator.contacts.getProperties();
     this.properties = this.properties.map(p => ({ name: p, checked: true }));
