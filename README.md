@@ -6,6 +6,8 @@ Simple example using the [Web Contacts API](https://wicg.github.io/contact-api/s
 
 For now it only works with Google Chrome Android 80+
 
+![Screenshot](screenshot.jpg)
+
 ## Project setup
 
 ```
